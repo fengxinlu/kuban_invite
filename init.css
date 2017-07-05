@@ -1,0 +1,168 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "PingFang SC";
+}
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;font-weight: normal}
+
+input{
+    border: none;
+}
+
+input:focus,input:active,input:visited,a:focus,a:active,a:visited{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.header{
+    padding: 0.6rem 0;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.3rem;
+    color: #2b2b2b;
+}
+
+.header >img{
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    margin-bottom: 0.33rem;
+}
+
+.title-content{
+    padding-top: 0.6rem;
+    padding-bottom: 1.16rem;
+    text-align: center;
+}
+
+.space-name{
+    font-size: 0.34rem;
+    color: #2b2b2b;
+    margin-bottom: 0.28rem;
+}
+
+.invite-name{
+    font-size: 0.24rem;
+    color: #969696;
+}
+
+.invite-name >span:first-child{
+    margin-right: 0.12rem;
+}
+
+.form-container{
+    padding: 0.3rem;
+}
+
+.kb-field{
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #e5e5e5;
+    color: #000;
+    font-size: 0.32rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+    position: relative;
+}
+
+.kb-field >label{
+    margin-right: 0.52rem;
+    display: inline-block;
+    white-space: nowrap;
+    width: 132px;
+}
+
+.kb-field >input{
+    font-size: 0.32rem;
+}
+
+.verification-code{
+    color: #4a90e2;
+    position: absolute;
+    background-color: #FFFFFF;
+    right: 0;
+    top: 0;
+}
+
+.content{
+    padding-bottom: 1.2rem;
+}
+
+.footer{
+    padding: 0.4rem;
+    width: calc(100% - 0.8rem);
+}
+
+.invite-btn{
+    font-size: 0.36rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.22rem 0;
+    background-color: #1aad19;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.disable-btn{
+    filter: Alpha(opacity=50); /* IE */
+    -moz-opacity:0.5;    /* FF 主要是为了兼容老版本的FF */
+    opacity:0.5;    /* FF */
+}
+
+.popover{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 0.36rem;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.fix-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.popover .title{
+    color: #030303;
+    padding: 0.3rem 0.3rem 0 0.3rem;
+}
+
+.popover .hintMessage{
+    padding: 0.5rem;
+    color: #969696;
+}
+
+.popover .closeBtn{
+    padding: 0.3rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.popover .closeBtn span{
+    color: #1aad19;
+}
+
+.showCodeHint{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 8px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.32rem;
+    display: none;
+}
